@@ -1,0 +1,104 @@
+.headerContainer{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.home{
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    width: 600px;
+    padding-bottom: 30px;
+    
+    
+}
+
+
+.text{
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+.underLine{
+    width: 61px;
+    height: 6px;
+    background: #3c009d;
+    border-radius: 9px;
+}
+
+.inputs{
+    margin-top: 55px;
+    display:flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input{
+
+    display:flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 13px;
+   
+}
+.input img{
+    margin: 0px 30px;
+}
+.input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border:none ;
+    outline:none ;
+    color:#797979 ;
+    font-size:19px ;
+}
+
+.forgot-password{
+    padding-left:62px ;
+    margin-top: 27px;
+    color:#797979 ;
+    font-size: 18px;
+}
+.forgot-password span{
+    color:#4c00b4 ;
+    cursor: pointer;
+}
+.submit-container{ 
+  /*  display: flex; */
+    gap: 30px;
+    margin:60px auto ;
+    font-family: "Roboto";
+}
+
+.submit{
+   /* font-Family: 'Roboto';*/
+   font-Family: 'Roboto';
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height:70px ;
+    color:#fff ;
+    background:#b8860b ;
+    border-radius:13px ;
+    font-size:19px ;
+    font-weight:709 ;
+    cursor: pointer;
+    border: 6px solid #b8860b; 
+    font-family: "Roboto";
+}
+.submit:hover{
+background-color: black;
+}

@@ -1,0 +1,46 @@
+.postes {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  height: auto;
+  }
+  .textContainer{
+    margin-left: 10px;
+    /* flex: 1; */
+  }
+  .Links{
+    font-size: 1.4rem;
+text-align: center;
+
+  }
+  
+  .Links .link1{
+    text-decoration: none;
+    color: #767676;
+          }
+
+
+
+      .Links .link2{
+    text-decoration: none;
+    color: #767676;
+
+        margin-left: -200px;
+        
+          }
+  
+  .image {
+    /* width: 200px; */
+     /* Adjust as needed */
+    height: auto;
+     /* To maintain aspect ratio */
+    /* margin-right: 200px; */
+     /* Spacing between image and text */
+  }
+  /* .textContainer h1 {
+    color: #333;
+  }
+  
+  .textContainer p {
+    color: #666;
+  }   */

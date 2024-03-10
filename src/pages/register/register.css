@@ -1,0 +1,47 @@
+.register {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      }
+      
+      .right {
+        flex: 1;
+        padding: 700px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+  
+        h1 {
+            text-align: center;
+        color: #b8860b ;
+        }
+        
+        form {
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+          
+          input {
+          border: none;
+          border-bottom: 1px solid lightgray;
+          padding: 20px 10px;
+          }
+          
+          button {
+            width: 50%;
+            padding: 10px;
+            border: none;
+            background-color: #b8860b ;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+          margin: 0 auto;
+          }
+        }
+      }
+      
+  
+  
